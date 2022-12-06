@@ -1,0 +1,90 @@
+@import 'tailwindcss/base';
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+
+/* Write your own custom base styles here */
+/* Start purging... */
+@import 'tailwindcss/components';
+
+/* Stop purging. */
+@import 'typography';
+@import 'loader';
+html,
+body {
+  scroll-behavior: smooth;
+  background-color: #fff;
+  font-family: 'Quicksand', sans-serif;
+}
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #1d313e;
+}
+::selection {
+  color: white;
+  background: #1d313e;
+  border-radius: 20px;
+}
+.malvis {
+  font-family: 'Merriweather', serif;
+}
+.nav-title {
+  font-size: 2rem;
+}
+.title {
+  font-size: 3rem;
+}
+.title1 {
+  font-size: 3rem;
+}
+.desc {
+  font-family: 'Quicksand', sans-serif;
+}
+.radius {
+  border-radius: 10px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to bottom, #ffffff, #1d313e, #b81c26);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1d313e;
+}
+@media only screen and (min-width: 600px) {
+  /* For desktop: */
+  .title {
+    font-size: 4rem;
+  }
+  .title1 {
+    font-size: 9rem;
+  }
+}
+@media only screen and (min-width: 769px) {
+  /* For desktop: */
+  .title {
+    font-size: 5rem;
+  }
+  .title1 {
+    font-size: 6rem;
+  }
+}
+
+/* Start purging... */
+@import 'tailwindcss/utilities';
+/* Stop purging. */
+/* Your own custom utilities */
