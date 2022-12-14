@@ -65,13 +65,13 @@ export const ProfileMalvis: React.FC = () => {
             <ContentHead>PROFILE</ContentHead>
             <p tw="text-[#2b2b2b] font-bold mb-5 text-center">Reza Satria Kinayungan.S.H, CTL.</p>
             <p tw="text-justify px-16 text-dark">
-              Reza graduated from Gajdah Mada University started the experience of working at the Tony Hasibuan & Partners
-              for 5 years and became a Associate, he is founding a platform advokat_keluarga . The Platform has free services
-              specifically for the consultation of legal issues in the scope of a family such as divorce, inhertinance, child
-              rights and Gono Gini, KDRT (Kekerasan Dalam Rumah Tangga) Reza also has a lot of experience in the criminal
-              process. Reza has certified (CTL) Certified Tax Lawyer and experienced tax laws handling taxation and members
-              of the PKPPI (Lawyer and Laws of Indonesian Tax Courts) currently continue study Master of law at Gajdah Mada
-              University of Profession of Business Law.
+              Reza Satria Kinayungan, S.H.,CTL., graduated from Gadjah Mada University, started the experience of working at
+              the Tony Hasibuan & Partners for 5 years and became a Associate, he is founding a platform advokat_keluarga .
+              The Platform has free services specifically for the consultation of legal issues in the scope of a family such
+              as divorce, inhertinance, child rights and Gono Gini, KDRT (Kekerasan Dalam Rumah Tangga). Reza also has a lot
+              of experience in the litigation process. Reza certified tax lawyer (CTL) and experienced handling taxation and
+              member of the PKPPI (Lawyer and Laws of Indonesian Tax Courts). Currently, he is studying Master of law at
+              Gadjah Mada University majoring Business Law.
             </p>
           </div>
           <div tw="w-2/5 pt-10 bg-bg-owner hidden md:block bg-no-repeat bg-cover bg-center" data-aos="fade">
