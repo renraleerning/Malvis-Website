@@ -59,11 +59,11 @@ export const Footer: React.FunctionComponent<Footer & React.HTMLAttributes<HTMLO
                   <Image unoptimized={true} src={'/assets/icons/facebook.png'} height={20} width={20} layout="fixed" />
                 </a>
               </Link>
-              {/* <Link href="attorneysatlaw@malvis.co.id">
+              <Link href="https://mail.google.com/mail/u/0/#search/attorneysatlaw%40malvis.co.id?compose=new">
                 <a target="_blank">
                   <Image unoptimized={true} src={'/assets/icons/gmail.svg'} height={20} width={20} layout="fixed" />
                 </a>
-              </Link> */}
+              </Link>
               <Link href="https://www.instagram.com/malvis_id/">
                 <a target="_blank">
                   <Image unoptimized={true} src={'/assets/icons/instagram.png'} height={20} width={20} layout="fixed" />
@@ -75,7 +75,7 @@ export const Footer: React.FunctionComponent<Footer & React.HTMLAttributes<HTMLO
                 </a>
               </Link>
             </div>
-            <div tw="text-gray-400">attorneysatlaw@malvis.co.id</div>
+
             <div tw="flex space-x-5 justify-center flex-wrap lg:justify-evenly w-full text-gray-400">
               {dataLinks.map((dataLinks: { to: string; title: string; offset: number }, i: number) => (
                 <Links
