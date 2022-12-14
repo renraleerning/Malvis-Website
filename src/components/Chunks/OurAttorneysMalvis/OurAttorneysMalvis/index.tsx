@@ -52,7 +52,7 @@ export const OurAttorneysMalvis: React.FC = () => {
                 variant="malvisdark"
                 tw="font-semibold mt-6 rounded-full px-6"
                 external={true}
-                url="https://id.linkedin.com/in/malvis-attorneys-at-law-525119257/en"
+                url="hhttps://mail.google.com/mail/u/0/#search/attorneysatlaw%40malvis.co.id?compose=new"
               />
               <Image
                 unoptimized={true}
