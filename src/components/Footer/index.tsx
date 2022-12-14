@@ -59,7 +59,7 @@ export const Footer: React.FunctionComponent<Footer & React.HTMLAttributes<HTMLO
                   <Image unoptimized={true} src={'/assets/icons/facebook.png'} height={20} width={20} layout="fixed" />
                 </a>
               </Link>
-              <Link href="https://mail.google.com/mail/u/0/#search/attorneysatlaw%40malvis.co.id?compose=new">
+              <Link href="https://mail.google.com/mail/u/0/#search/attorneysatlaw%40malvis.co.id?compose=CllgCHrgltTGqwxHZtJGDhvVcvTThJbFKHGBGdGflSsDQPvPPFMJVnZmzJfDdQQTwCWcpgNHDmL">
                 <a target="_blank">
                   <Image unoptimized={true} src={'/assets/icons/gmail.svg'} height={20} width={20} layout="fixed" />
                 </a>
