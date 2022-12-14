@@ -94,15 +94,13 @@ export const ProfileMalvis: React.FC = () => {
           </div>
           <div tw="md:hidden block" data-aos="fade">
             <ContentHead>PROFILE</ContentHead>
-            <p tw="text-[#2b2b2b] font-bold mb-5 text-center">Reza Satria Kinayungan.S.H, CTL.</p>
+            <p tw="text-[#2b2b2b] font-bold mb-5 text-center">Zubet Rizal, S.H.</p>
             <p tw="text-justify px-5 text-dark pb-20">
-              Reza graduated from Gajdah Mada University started the experience of working at the Tony Hasibuan & Partners
-              for 5 years and became a Associate, he is founding a platform advokat_keluarga . The Platform has free services
-              specifically for the consultation of legal issues in the scope of a family such as divorce, inhertinance, child
-              rights and Gono Gini, KDRT (Kekerasan Dalam Rumah Tangga) Reza also has a lot of experience in the criminal
-              process. Reza has certified (CTL) Certified Tax Lawyer and experienced tax laws handling taxation and members
-              of the PKPPI (Lawyer and Laws of Indonesian Tax Courts) currently continue study Master of law at Gajdah Mada
-              University of Profession of Business Law.
+              Zubet Rizal, S.H., graduated from Gadjah Mada University. Zubet has been working as a corporate lawyer for more
+              than 7 years, especially handling employment cases, corporate licensing and private civil cases. Moreover, he
+              also has experience in industrial relations and has been a speaker in several workshops about regulations
+              employment . Currently, his main focus is to intensify Malvis Attorneys at Law as a Managing Partner and
+              another activity. He is a part of Community Kagama Business Law.
             </p>
           </div>
         </Content>
