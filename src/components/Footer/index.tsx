@@ -75,7 +75,7 @@ export const Footer: React.FunctionComponent<Footer & React.HTMLAttributes<HTMLO
                 </a>
               </Link>
             </div>
-
+            <div tw="text-gray-400">attorneysatlaw@malvis.co.id</div>
             <div tw="flex space-x-5 justify-center flex-wrap lg:justify-evenly w-full text-gray-400">
               {dataLinks.map((dataLinks: { to: string; title: string; offset: number }, i: number) => (
                 <Links
