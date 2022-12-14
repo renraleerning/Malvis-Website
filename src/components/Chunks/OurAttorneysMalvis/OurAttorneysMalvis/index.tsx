@@ -19,7 +19,7 @@ const Content = styled.div`
 `
 
 const ContentHead = styled.h1`
-  ${tw`pt-20 text-2xl font-bold text-dark md:text-4xl`}
+  ${tw`pt-10 text-2xl font-bold text-dark md:text-4xl`}
 `
 
 export const OurAttorneysMalvis: React.FC = () => {
