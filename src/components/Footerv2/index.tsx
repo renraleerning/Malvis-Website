@@ -56,22 +56,22 @@ export const Footerv2: React.FunctionComponent<Footerv2 & React.HTMLAttributes<H
             <div tw="flex space-x-3 md:space-x-0 justify-evenly w-3/12 text-gray-500 my-8">
               <Link href="https://www.facebook.com/profile.php?id=100087922028799">
                 <a target="_blank">
-                  <Image unoptimized={true} src={'/assets/icons/facebook.png'} height={20} width={20} layout="fixed" />
+                  <Image unoptimized={true} src={'/assets/icons/facebook.svg'} height={20} width={20} layout="fixed" />
                 </a>
               </Link>
               <Link href="https://mail.google.com/mail/u/0/#search/attorneysatlaw%40malvis.co.id?compose=CllgCHrgltTGqwxHZtJGDhvVcvTThJbFKHGBGdGflSsDQPvPPFMJVnZmzJfDdQQTwCWcpgNHDmL">
                 <a target="_blank">
-                  <Image unoptimized={true} src={'/assets/icons/gmail.svg'} height={20} width={20} layout="fixed" />
+                  <Image unoptimized={true} src={'/assets/icons/mail.svg'} height={20} width={20} layout="fixed" />
                 </a>
               </Link>
               <Link href="https://www.instagram.com/malvis_id/">
                 <a target="_blank">
-                  <Image unoptimized={true} src={'/assets/icons/instagram.png'} height={20} width={20} layout="fixed" />
+                  <Image unoptimized={true} src={'/assets/icons/instagram.svg'} height={20} width={20} layout="fixed" />
                 </a>
               </Link>
               <Link href="https://id.linkedin.com/in/malvis-attorneys-at-law-525119257/en">
                 <a target="_blank">
-                  <Image unoptimized={true} src={'/assets/icons/linked.png'} height={20} width={20} layout="fixed" />
+                  <Image unoptimized={true} src={'/assets/icons/linkedin.svg'} height={20} width={20} layout="fixed" />
                 </a>
               </Link>
             </div>
