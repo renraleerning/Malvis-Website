@@ -74,12 +74,11 @@ export const ProfileMalvis1: React.FC = () => {
           <div tw="w-3/5 hidden md:block" data-aos="fade">
             <ContentHead>PROFILE</ContentHead>
             <p tw="text-justify px-16 text-dark">
-              <p tw="text-[#2b2b2b] font-bold mb-5 text-center">Zubet Rizal, S.H.</p>
-              Zubet Rizal, S.H., graduated from Gadjah Mada University. Zubet has been working as a corporate lawyer for more
-              than 7 years, especially handling employment cases, corporate licensing and private civil cases. Moreover, he
-              also has experience in industrial relations and has been a speaker in several workshops about regulations
-              employment . Currently, his main focus is to intensify Malvis Attorneys at Law as a Managing Partner and
-              another activity. He is a part of Community Kagama Business Law.
+              <p tw="text-[#2b2b2b] font-bold mb-5 text-center">Gading Yonggar Ditya.S.H. </p>
+              Gading Yonggar Ditya, S.H., graduated from University of Diponegoro. He has experience of handling cases such
+              as intellectual property, manpower, land and property, oil and gas, Technology Media Telecommunication (TMT)
+              and criminal. He started a career in Jakarta Legal Aid Organization (LBH Jakarta) and Legal Aid Center for the
+              Press and handle many cases especially EIT case.
             </p>
           </div>
           <div tw="bg-[#d9d9d9] md:hidden block bg-no-repeat bg-cover bg-center " data-aos="fade">
