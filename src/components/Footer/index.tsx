@@ -109,7 +109,7 @@ export const Footer: React.FunctionComponent<Footer & React.HTMLAttributes<HTMLO
                 </span>
               </Link>
             </div>
-            <p tw="text-gray-400 px-5">© {new Date().getFullYear()} Malvis Human & Legal. All rights reserved.</p>
+            <p tw="text-gray-400 px-5">© {new Date().getFullYear()} Malvis Attorneys at Law. All rights reserved.</p>
           </Content>
         </Container>
       </Background>
