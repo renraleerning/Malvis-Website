@@ -1,11 +1,14 @@
-import { HeroMalvis, OurAttorneysMalvis, QuotesMalvis } from '@/components/Chunks/OurAttorneysMalvis'
+import { HeroMalvis, OurAttorneysMalvis } from '@/components/Chunks/OurAttorneysMalvis'
 import { Footerv2 } from '@/components/Footerv2'
+import Head from 'next/head'
 
 const OurAttorneyMalvis = () => {
   return (
     <>
+      <Head>
+        <title>MALVIS — Our Attorneys</title>
+      </Head>
       <HeroMalvis open={false} />
-      <QuotesMalvis />
       <OurAttorneysMalvis />
       <Footerv2 open={false} />
     </>

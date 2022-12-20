@@ -1,9 +1,13 @@
 import { HeroMalvis, PracticesMalvis, Ccmalvis, Desc } from '@/components/Chunks/Practices'
 import { Footerv2 } from '@/components/Footerv2'
+import Head from 'next/head'
 
 const Practices = () => {
   return (
     <>
+      <Head>
+        <title>MALVIS — Practices Area</title>
+      </Head>
       <HeroMalvis open={false} />
       <PracticesMalvis />
       <Ccmalvis />

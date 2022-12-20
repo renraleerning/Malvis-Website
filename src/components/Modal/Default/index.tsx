@@ -45,7 +45,7 @@ export const DefaultModal: React.FunctionComponent<DefaultModal & React.HTMLAttr
     <>
       <Transition appear show={isOpen} as={Fragment}>
         <Dialog as="div" tw="fixed inset-0 z-50 overflow-y-auto" onClose={onClose}>
-          <div tw="min-h-screen text-center bg-[#232323]">
+          <div tw="min-h-screen md:inset-y-0 md:right-0 text-center w-full lg:w-[50%] md:w-[70%] absolute bg-[#232323]">
             <Transition.Child
               as={Fragment}
               enter="ease-out duration-500"
@@ -84,7 +84,7 @@ export const DefaultModal: React.FunctionComponent<DefaultModal & React.HTMLAttr
                     )}
                   </div>
                 </header>
-                <div tw="flex flex-col space-y-8 text-white text-3xl transform z-30" className="desc">
+                <div tw="flex flex-col space-y-8  text-white text-3xl transform z-30" className="desc">
                   <div tw="flex flex-col space-y-8 text-white text-3xl justify-center items-center h-screen z-50">
                     {dataLinks.map((dataLinks: { to: string; title: string; offset: number }, i: number) => (
                       <Links
