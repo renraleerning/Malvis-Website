@@ -40,37 +40,19 @@ export const GalleryMalvis: React.FC = () => {
           </div>
           <div tw="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 my-5 gap-4">
             <div tw="items-center mx-auto">
-              <Image
-                unoptimized={true}
-                src={'/assets/images/7.jpg'}
-                layout="fixed"
-                width={300}
-                height={210}
-                objectFit="contain"
-                tw="rounded-lg bg-[#d9d9d9]"
-              />
+              <Image unoptimized={true} src={'/assets/images/7.jpg'} width={300} height={210} tw="rounded-lg bg-[#d9d9d9]" />
             </div>
             <div tw="items-center mx-auto rounded-lg md:hidden block lg:block">
               <Image
                 unoptimized={true}
                 src={'/assets/images/11.jpg'}
-                layout="fixed"
                 width={300}
                 height={210}
-                objectFit="contain"
                 tw="rounded-lg bg-[#d9d9d9]"
               />
             </div>
             <div tw="items-center mx-auto rounded-lg">
-              <Image
-                unoptimized={true}
-                src={'/assets/images/8.jpg'}
-                layout="fixed"
-                width={300}
-                height={210}
-                objectFit="contain"
-                tw="rounded-lg bg-[#d9d9d9]"
-              />
+              <Image unoptimized={true} src={'/assets/images/8.jpg'} width={300} height={210} tw="rounded-lg bg-[#d9d9d9]" />
             </div>
           </div>
         </div>

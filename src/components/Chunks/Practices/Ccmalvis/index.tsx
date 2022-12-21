@@ -16,7 +16,7 @@ const ContentRightHead = styled.h1`
   ${tw`mb-6 text-2xl font-bold text-dark`}
 `
 const ContentRightSub = styled.div`
-  ${tw`text-gray-500 text-justify`}
+  ${tw`text-gray-500`}
 `
 const ContentRightLeft = styled.div`
   ${tw`relative flex flex-col justify-start lg:w-2/5 bg-[#F7FAFC] py-[3.125rem] px-6`}
@@ -102,7 +102,9 @@ export const Ccmalvis: React.FC = () => {
               <ContentLeftRight data-aos="fade">
                 <ContentRightHead>Corporate & Commercial</ContentRightHead>
                 <ContentRightSub>
-                  We offer a wide range of corporate and commercial legal services, which comprise of, but not limited to:
+                  <span tw="text-justify">
+                    We offer a wide range of corporate and commercial legal services, which comprise of, but not limited to:
+                  </span>
                   <br />
                   <Ul>
                     <li>
@@ -154,11 +156,13 @@ export const Ccmalvis: React.FC = () => {
               <ContentRightRight data-aos="fade">
                 <ContentRightHead>Energy and Oil & Gas</ContentRightHead>
                 <ContentRightSub>
-                  We help private and public sector in the oil, gas and renewable energy industry achieve efficient and
-                  innovative solutions to their legal, regulatory and structural challenges. Our team provide hands on legal
-                  support to oil, gas, and liquid natural gas (LNG) hands on, both behind the scenes, in board rooms as well
-                  as on site, including monitoring and advising on the daily operations of national and international oil and
-                  gas companies.
+                  <span tw="text-justify">
+                    We help private and public sector in the oil, gas and renewable energy industry achieve efficient and
+                    innovative solutions to their legal, regulatory and structural challenges. Our team provide hands on
+                    legal support to oil, gas, and liquid natural gas (LNG) hands on, both behind the scenes, in board rooms
+                    as well as on site, including monitoring and advising on the daily operations of national and
+                    international oil and gas companies.
+                  </span>
                   <br />
                   TAX
                   <Ul>
