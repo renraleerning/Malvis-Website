@@ -35,7 +35,7 @@ export const AboutMalvis: React.FC = () => {
     <>
       <Element name="aboutmalvis" className="element">
         <Background className="bg-no-repeat bg-center bg-cover">
-          <Container tw="p-5 md:p-14">
+          <Container tag={'div'} tw="px-5 md:px-14">
             <ContentLeft>
               <ContentLeftService>
                 <ContentHead data-aos="fade-up">ABOUT US</ContentHead>

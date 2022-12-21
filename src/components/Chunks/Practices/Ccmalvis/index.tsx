@@ -6,17 +6,17 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 const Content = styled.div`
-  ${tw`flex flex-col items-center justify-between w-full p-4 mt-8 sm:mt-0 lg:flex-row lg:px-0 lg:py-16`}
+  ${tw`flex flex-col items-center justify-between w-full p-4 mt-8 sm:mt-0 lg:flex-row lg:px-0`}
 `
 
 const ContentRight = styled.div`
-  ${tw`flex-col py-5 space-y-5 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-4 lg:flex lg:flex-row justify-evenly`}
+  ${tw`flex-col py-5 space-y-5 sm:space-y-0 sm:grid sm:grid-cols-1 sm:gap-4 lg:flex lg:flex-row justify-evenly`}
 `
 const ContentRightHead = styled.h1`
   ${tw`mb-6 text-2xl font-bold text-dark`}
 `
 const ContentRightSub = styled.div`
-  ${tw`text-gray-500`}
+  ${tw`text-gray-500 text-justify`}
 `
 const ContentRightLeft = styled.div`
   ${tw`relative flex flex-col justify-start lg:w-2/5 bg-[#F7FAFC] py-[3.125rem] px-6`}

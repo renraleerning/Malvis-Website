@@ -19,7 +19,7 @@ export const QuotesMalvis: React.FC = () => {
         <Container tag={'div'} tw="px-5 md:px-14">
           <div
             data-aos="fade"
-            tw="my-10  mx-auto  w-full grid items-center justify-center grid-cols-1 gap-4 text-center md:grid-cols-2 lg:grid-cols-3 place-content-center">
+            tw="mb-10  mx-auto  w-full grid items-center justify-center grid-cols-1 gap-4 text-center md:grid-cols-2 lg:grid-cols-3 place-content-center">
             {dataQuote.map((data: any, i: number) => (
               <Fragment key={i} tw="">
                 <QuoteCard key={i} quote={data?.quote} by={data?.by} />
