@@ -6,7 +6,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 const Content = styled.div`
-  ${tw`flex flex-col items-center justify-between w-full p-4 mt-8 sm:mt-0 lg:flex-row lg:px-0 lg:py-16`}
+  ${tw`flex flex-col items-center justify-between w-full p-4 mt-8 sm:mt-0 lg:flex-row lg:px-0`}
 `
 
 const ContentRight = styled.div`

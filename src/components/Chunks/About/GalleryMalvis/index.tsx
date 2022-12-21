@@ -1,5 +1,4 @@
 // import tw, { styled } from 'twin.macro'
-// import Image from 'next/image'
 import React, { Fragment } from 'react'
 //import React, {  useRef } from 'react's
 import { Container } from '@/components/Layouts'
