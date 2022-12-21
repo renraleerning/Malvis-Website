@@ -97,11 +97,7 @@ export const Footer: React.FunctionComponent<Footer & React.HTMLAttributes<HTMLO
                   Practices Area
                 </span>
               </Link>
-              <Link href="/profile">
-                <span className={`text-white cursor-pointer ${router?.asPath?.includes('profile') && 'font-bold'}`}>
-                  Profile
-                </span>
-              </Link>
+
               <Link href="/ourattorneysmalvis">
                 <span
                   className={`text-white cursor-pointer ${router?.asPath?.includes('ourattorneysmalvis') && 'font-bold'}`}>
