@@ -105,7 +105,7 @@ export const HeroMalvis: React.FunctionComponent<HeroMalvis & React.HTMLAttribut
                 />
               </ContentImage>
               <ContentText>
-                <ContentTextHead className="malvis title">Profile</ContentTextHead>
+                <ContentTextHead className="malvis title">Our Attorneys</ContentTextHead>
                 <ContentTextSub className="desc">
                   Malvis Attorneys at Law Law Office is a law firm which promises to deliver domestic and international
                   clients with the highest quality and personalized legal services.
