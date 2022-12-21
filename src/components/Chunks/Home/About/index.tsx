@@ -27,7 +27,7 @@ export const About: React.FC = () => {
   }, [])
   return (
     <>
-      <Element name="about" className="element bg-white">
+      <Element name="about" className="bg-white element">
         <Container tag={'div'} tw="px-0 sm:p-5 md:p-10">
           <Content data-aos="fade">
             {/* <ContentHead>About Malvis</ContentHead> */}
