@@ -7,7 +7,7 @@ import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 
 const Content = styled.div`
-  ${tw`flex flex-col items-center justify-between w-full px-5 py-10 text-center lg:px-24`}
+  ${tw`flex flex-col items-center justify-between w-full py-10 text-center`}
 `
 
 // const ContentHead = styled.h1`
@@ -28,7 +28,7 @@ export const About: React.FC = () => {
   return (
     <>
       <Element name="about" className="bg-white element">
-        <Container tag={'div'} tw="px-0 sm:p-5 md:p-10">
+        <Container tag={'div'} tw="px-5 md:px-14">
           <Content data-aos="fade">
             {/* <ContentHead>About Malvis</ContentHead> */}
             <Contentsub>
