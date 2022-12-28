@@ -38,21 +38,62 @@ export const GalleryMalvis: React.FC = () => {
               to provide many legal consultation to give the best service for valuable clients.
             </p>
           </div>
-          <div tw="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 my-5 gap-4">
-            <div tw="items-center mx-auto">
-              <Image unoptimized={true} src={'/assets/images/7.jpg'} width={300} height={210} tw="rounded-lg bg-[#d9d9d9]" />
-            </div>
-            <div tw="items-center mx-auto rounded-lg md:hidden block lg:block">
+          <div tw="md:grid grid-cols-3 my-5 gap-4 hidden">
+            <div tw="items-center mx-auto rounded-lg">
               <Image
                 unoptimized={true}
-                src={'/assets/images/11.jpg'}
-                width={300}
-                height={210}
-                tw="rounded-lg bg-[#d9d9d9]"
+                src={'/assets/images/9.jpg'}
+                width={180}
+                height={280}
+                tw="rounded-lg object-contain bg-dark"
+              />
+            </div>
+            <div tw="items-center my-auto mx-auto rounded-lg">
+              <Image
+                unoptimized={true}
+                src={'/assets/images/7.jpg'}
+                width={500}
+                height={380}
+                tw="rounded-lg object-contain bg-dark"
               />
             </div>
             <div tw="items-center mx-auto rounded-lg">
-              <Image unoptimized={true} src={'/assets/images/8.jpg'} width={300} height={210} tw="rounded-lg bg-[#d9d9d9]" />
+              <Image
+                unoptimized={true}
+                src={'/assets/images/10.jpg'}
+                width={180}
+                height={280}
+                tw="rounded-lg object-contain bg-dark"
+              />
+            </div>
+          </div>
+          <div tw="grid grid-cols-2 my-5 gap-4 md:hidden">
+            <div tw="items-center mx-auto">
+              <Image
+                unoptimized={true}
+                src={'/assets/images/9.jpg'}
+                width={180}
+                height={280}
+                tw="rounded-lg object-contain bg-dark"
+              />
+            </div>
+            <div tw="items-center mx-auto rounded-lg">
+              <Image
+                unoptimized={true}
+                src={'/assets/images/10.jpg'}
+                width={180}
+                height={280}
+                tw="rounded-lg object-contain bg-dark"
+              />
+            </div>
+            <div tw="items-center my-auto mx-auto grid col-span-2 rounded-lg">
+              <Image
+                unoptimized={true}
+                src={'/assets/images/7.jpg'}
+                width={500}
+                height={380}
+                tw="rounded-lg object-contain bg-dark"
+              />
             </div>
           </div>
         </div>

@@ -2,7 +2,7 @@ import tw, { styled } from 'twin.macro'
 import { FC, useEffect } from 'react'
 
 const ContentQuote = styled.div`
-  ${tw`flex w-full h-[170px] md:h-[220px] cursor-default transition ease-in-out delay-100 focus:outline-none hover:scale-110 hover:bg-malvisblue hover:bg-opacity-30 duration-200 bg-[#d9d9d9] rounded-xl place-items-center`}
+  ${tw`flex w-full h-[170px] md:h-[220px] cursor-default transition focus:outline-none hover:bg-malvisblue hover:bg-opacity-30 duration-200 bg-[#d9d9d9] rounded-xl place-items-center`}
 `
 const Title = styled.div`
   ${tw`flex-1 px-10 text-base font-bold text-left text-center text-gray-900 capitalize md:text-lg`}
