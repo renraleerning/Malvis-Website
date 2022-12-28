@@ -6,11 +6,11 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 const Content = styled.div`
-  ${tw`flex flex-col items-center justify-between w-full p-4 mt-8 sm:mt-0 lg:flex-row lg:px-0 lg:py-16`}
+  ${tw`flex flex-col items-center justify-between w-full p-4 mt-8 sm:mt-0 lg:flex-row lg:px-0`}
 `
 
 const ContentRight = styled.div`
-  ${tw`flex-col py-5 space-y-5 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-4 lg:flex lg:flex-row justify-evenly`}
+  ${tw`flex-col py-5 space-y-5 sm:space-y-0 sm:grid sm:grid-cols-1 sm:gap-4 lg:flex lg:flex-row justify-evenly`}
 `
 const ContentRightHead = styled.h1`
   ${tw`mb-6 text-2xl font-bold text-dark`}
@@ -28,8 +28,11 @@ const ContentRightLeft = styled.div`
     right:0;
     bottom:0;
     border-radius:8px; 
-    padding-left:10px;
+    padding-top:10px;
     padding-bottom:10px;
+    padding-right:1px;
+    padding-left:1px;
+    
     background:linear-gradient(90deg, #B81C26 -3.51%, #313C55 46%, #313C55 75.16%, #232323 102.12%); 
     -webkit-mask: 
        linear-gradient(#fff 0 0) content-box, 
@@ -49,7 +52,30 @@ const ContentRightRight = styled.div`
     border-radius:8px; 
     padding-right:10px;
     padding-top:10px;
-    background:linear-gradient(90deg, #B81C26 -3.51%, #313C55 46%, #313C55 75.16%, #232323 102.12%); 
+    padding-bottom:10px;
+    padding-left:1px;
+    background:linear-gradient(90deg, #232323 -3.51%, #313C55 46%, #313C55 75.16%, #B81C26 102.12%); 
+    -webkit-mask: 
+       linear-gradient(#fff 0 0) content-box, 
+       linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out; 
+    mask-composite: exclude; 
+`
+const ContentLeftRight = styled.div`
+  ${tw`relative flex flex-col justify-start lg:w-2/5 bg-[#F7FAFC] py-[3.125rem] px-6`}
+  div:before {
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    border-radius:8px; 
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:1px;
+    background:linear-gradient(90deg, #232323 -3.51%, #313C55 46%, #313C55 75.16%, #B81C26 102.12%); 
     -webkit-mask: 
        linear-gradient(#fff 0 0) content-box, 
        linear-gradient(#fff 0 0);
@@ -73,10 +99,12 @@ export const Ccmalvis: React.FC = () => {
         <Container tag={'div'} tw="px-0 pt-5 sm:pt-0 sm:p-5 md:px-14">
           <Content>
             <ContentRight>
-              <ContentRightLeft data-aos="fade">
+              <ContentLeftRight data-aos="fade">
                 <ContentRightHead>Corporate & Commercial</ContentRightHead>
                 <ContentRightSub>
-                  We offer a wide range of corporate and commercial legal services, which comprise of, but not limited to:
+                  <span tw="text-justify">
+                    We offer a wide range of corporate and commercial legal services, which comprise of, but not limited to:
+                  </span>
                   <br />
                   <Ul>
                     <li>
@@ -105,8 +133,8 @@ export const Ccmalvis: React.FC = () => {
                     </li>
                   </Ul>
                 </ContentRightSub>
-              </ContentRightLeft>
-              <ContentRightRight data-aos="fade">
+              </ContentLeftRight>
+              <ContentRightLeft data-aos="fade">
                 <ContentRightHead>We also advise on:</ContentRightHead>
                 <ContentRightSub>
                   <Ul>
@@ -124,15 +152,17 @@ export const Ccmalvis: React.FC = () => {
                     Compliance and regulatory matters.
                   </Ul>
                 </ContentRightSub>
-              </ContentRightRight>
-              <ContentRightLeft data-aos="fade">
+              </ContentRightLeft>
+              <ContentRightRight data-aos="fade">
                 <ContentRightHead>Energy and Oil & Gas</ContentRightHead>
                 <ContentRightSub>
-                  We help private and public sector in the oil, gas and renewable energy industry achieve efficient and
-                  innovative solutions to their legal, regulatory and structural challenges. Our team provide hands on legal
-                  support to oil, gas, and liquid natural gas (LNG) hands on, both behind the scenes, in board rooms as well
-                  as on site, including monitoring and advising on the daily operations of national and international oil and
-                  gas companies.
+                  <span tw="text-justify">
+                    We help private and public sector in the oil, gas and renewable energy industry achieve efficient and
+                    innovative solutions to their legal, regulatory and structural challenges. Our team provide hands on
+                    legal support to oil, gas, and liquid natural gas (LNG) hands on, both behind the scenes, in board rooms
+                    as well as on site, including monitoring and advising on the daily operations of national and
+                    international oil and gas companies.
+                  </span>
                   <br />
                   TAX
                   <Ul>
@@ -150,7 +180,7 @@ export const Ccmalvis: React.FC = () => {
                     </li>
                   </Ul>
                 </ContentRightSub>
-              </ContentRightLeft>
+              </ContentRightRight>
             </ContentRight>
           </Content>
         </Container>

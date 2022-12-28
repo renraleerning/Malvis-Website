@@ -36,7 +36,7 @@ export const Desc: React.FC = () => {
     <>
       <Element name="client" className="element">
         <Background>
-          <Container>
+          <Container tag={'div'} tw="px-5 md:px-14">
             <Content data-aos="fade">
               <Contentsub>
                 The government's reconciliation can be widely large and strong sanctions for inaccurate tax reporting we are
