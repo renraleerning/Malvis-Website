@@ -157,11 +157,10 @@ export const Ccmalvis: React.FC = () => {
                 <ContentRightHead>Energy and Oil & Gas</ContentRightHead>
                 <ContentRightSub>
                   <span tw="text-justify">
-                    We help private and public sector in the oil, gas and renewable energy industry achieve efficient and
+                    We help private and public sector in the oil, gas and renewable energy industry to achieve efficient and
                     innovative solutions to their legal, regulatory and structural challenges. Our team provide hands on
-                    legal support to oil, gas, and liquid natural gas (LNG) hands on, both behind the scenes, in board rooms
-                    as well as on site, including monitoring and advising on the daily operations of national and
-                    international oil and gas companies.
+                    legal support to oil, gas, and liquid natural gas (LNG), including monitoring and advising on the daily
+                    operations of national and international oil and gas companies.
                   </span>
                   <br />
                   TAX

@@ -114,7 +114,7 @@ export const DefaultModal: React.FunctionComponent<DefaultModal & React.HTMLAttr
                         className={`text-white text-3xl cursor-pointer ${
                           router?.asPath?.includes('practices') && 'font-bold'
                         }`}>
-                        Practices Area
+                        Practices Scope
                       </span>
                     </Link>
 

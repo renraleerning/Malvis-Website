@@ -32,11 +32,11 @@ export const About: React.FC = () => {
           <Content data-aos="fade">
             {/* <ContentHead>About Malvis</ContentHead> */}
             <Contentsub>
-              The Firm consists of prominent professionals equipped with the experience and knowledge in handling various
+              The Firm consists of equipped prominent professionals with the experience and knowledge on handling various
               notable transactions in Indonesia, gained from having worked at some of the largest and renowned law firms. Our
-              practices areas covering Litigation and Corporate services which covering on all litigation fields (Criminal,
+              practices scope are Litigation and Corporate services which covering on all litigation fields (Criminal,
               Private, Tax), Manpower & Industrial Relations (Company Regulation, Working Agreement, Union, Termination),
-              Family law (inheritance, Divorce, pre-nuptial agreement, etc.) Corporate Commercial & Foreign Investment
+              Family law (inheritance , Divorce, pre-nuptial agreement, etc) Corporate Commercial & Foreign Investment
               (Establishment, Restructuring, M&A, Liquidation), Business Transaction (Cooperation Agreement, Debt.
               Collection, Bakcruptcy, Private Investigator), and also Supporting Service (Translation, Interpretation, and
               Business Matching).

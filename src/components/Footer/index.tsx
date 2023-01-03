@@ -94,7 +94,7 @@ export const Footer: React.FunctionComponent<Footer & React.HTMLAttributes<HTMLO
               </Link>
               <Link href="/practices">
                 <span className={`text-white cursor-pointer ${router?.asPath?.includes('practices') && 'font-bold'}`}>
-                  Practices Area
+                  Practices Scope
                 </span>
               </Link>
 

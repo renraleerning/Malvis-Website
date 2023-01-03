@@ -34,15 +34,15 @@ export const PracticesMalvis: React.FC = () => {
       <Element name="practices" className="element">
         <Container tag={'div'} tw="px-5 md:px-14">
           <Content data-aos="fade">
-            <ContentHead>PRACTICES AREA</ContentHead>
+            <ContentHead>PRACTICES SCOPE</ContentHead>
             <ContentSolutionWrapper>
               <p tw="text-[#2b2b2b] font-bold mb-5 text-center">Litigation and Dispute Resolution</p>
               <p tw="text-dark mb-5 text-justify md:text-center">
-                We provide advocacy services for civil, criminal and commercial disputes as well as other litigation matters
-                before Indonesian courts. Our services include both civil and criminal proceedings. We our client assist in
+                We provide legal services for civil, criminal and commercial disputes as well as other litigation matters
+                before Indonesian courts. Our services include both civil and criminal proceedings. We assist our client in
                 legal disputes pertaining to, among others, contractual and shareholders disputes, Corruption, general
                 commercial litigation, commercial arbitration, land disputes, Family law (inheritance, Divorce, pre-nuptial
-                agreement, ) and bankruptcy/insolvency. We assist in formulating dispute strategies, assembling and analyzing
+                agreement) and bankruptcy/insolvency. We assist in formulating dispute strategies, assembling and analyzing
                 facts and evidences, and court proceedings.
               </p>
               {/* <Button
