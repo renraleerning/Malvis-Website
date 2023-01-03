@@ -96,7 +96,7 @@ export const Ccmalvis: React.FC = () => {
   return (
     <>
       <Element name="ccmalvis" className="element">
-        <Container tag={'div'} tw="px-0 pt-5 sm:pt-0 sm:p-5 md:px-14">
+        <Container tag={'div'} tw="px-5 md:px-14 ">
           <Content>
             <ContentRight>
               <ContentLeftRight data-aos="fade">

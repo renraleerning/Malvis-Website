@@ -72,7 +72,7 @@ export const GalleryMalvis: React.FC = () => {
               />
             </div>
           </div>
-          <div tw="grid grid-cols-2 my-5 gap-4 md:hidden">
+          <div tw="grid grid-cols-2 gap-4 md:hidden">
             <div tw="items-center mx-auto">
               <Image
                 unoptimized={true}
