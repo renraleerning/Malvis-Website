@@ -69,7 +69,7 @@ export const Footerv2: React.FunctionComponent<Footerv2 & React.HTMLAttributes<H
                   <Image unoptimized={true} src={'/assets/icons/instagram.svg'} height={20} width={20} layout="fixed" />
                 </a>
               </Link>
-              <Link href="https://id.linkedin.com/in/malvis-attorneys-at-law-525119257/en">
+              <Link href="https://www.linkedin.com/company/malvis-attorneys-at-law/">
                 <a target="_blank">
                   <Image unoptimized={true} src={'/assets/icons/linkedin.svg'} height={20} width={20} layout="fixed" />
                 </a>

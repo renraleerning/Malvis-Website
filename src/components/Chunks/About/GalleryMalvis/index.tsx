@@ -29,11 +29,12 @@ export const GalleryMalvis: React.FC = () => {
       <Fragment>
         <div tw="md:my-32">
           <div tw="md:my-auto grid sm:py-8 py-8 md:py-0 place-content-center items-center" data-aos="fade">
-            <p tw="text-center text-malvisblue font-bold md:text-4xl text-xl mb-2  md:mb-4  ">ABOUT US</p>
-            <p tw="text-[#232323] mb-2 md:mb-5 text-justify text-sm">
-              Local Counsel, Globally Connected Malvis Attorneys at Law Law Office founded in 2022 with a wide range of its
-              Founding Partners experiences, which are &nbsp;
-              <b>Zubet Rizal.S.H., Reza Satria Kinayungan.S.H, CTL., Gading Yonggar Ditya.S.H.</b> Supported with strong
+            <p tw="text-center text-malvis font-bold md:text-4xl text-xl mb-2  md:mb-4  ">ABOUT US</p>
+            <p tw="text-[#2b2b2b] font-bold mb-5 text-center">Local Counsel, Globally Connected</p>
+            <p tw="text-[#232323] md:mb-5 md:text-center text-justify text-sm mb-20" data-aos="fade-down">
+              Malvis Attorneys at Law Law Office founded in 2022 with a wide range of its Founding Partners experiences,
+              which are
+              <b> Zubet Rizal.S.H., Reza Satria Kinayungan.S.H, CTL., Gading Yonggar Ditya.S.H.</b> Supported with strong
               analitycal of Lawyers, Paralegal, as well as Field Administration Staff who will be incharged as a solid team
               to provide many legal consultation to give the best service for valuable clients.
             </p>
