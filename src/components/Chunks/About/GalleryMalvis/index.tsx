@@ -32,10 +32,10 @@ export const GalleryMalvis: React.FC = () => {
     <Container tag={'div'} tw="px-5 md:px-14">
       <Fragment>
         <div tw="my-20">
-          <div tw="md:my-auto grid sm:py-8 py-8 md:py-0 place-content-center items-center" data-aos="fade">
+          <div tw="md:my-auto grid place-content-center items-center" data-aos="fade">
             <ContentHead>ABOUT US</ContentHead>
             <p tw="text-[#2b2b2b] font-bold mb-5 text-center">Local Counsel, Globally Connected</p>
-            <p tw="text-[#232323] mb-5 md:text-center text-justify text-sm" data-aos="fade">
+            <p tw="text-[#232323] mb-20 md:text-center text-justify text-sm" data-aos="fade">
               Malvis Attorneys at Law is founded because of the similarity of its founders’s background and college, with a
               wide range of its Founding Partners experiences, which are
               <b> Zubet Rizal.S.H., Reza Satria Kinayungan.S.H, CTL., Gading Yonggar Ditya.S.H.</b> Supported by strong
@@ -43,7 +43,7 @@ export const GalleryMalvis: React.FC = () => {
               to provide many legal consultations to give the best service for valuable clients.
             </p>
           </div>
-          <div tw="md:grid grid-cols-3 my-5 gap-4 hidden">
+          <div tw="md:grid grid-cols-3 gap-4 hidden">
             <div tw="items-center mx-auto rounded-lg">
               <Image
                 unoptimized={true}
