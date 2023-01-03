@@ -6,7 +6,7 @@ const Profile = () => {
   return (
     <>
       <Head>
-        <title>MALVIS — Profile</title>
+        <title>MALVIS | Profile</title>
       </Head>
       <HeroMalvis open={false} />
       <ProfileMalvis />

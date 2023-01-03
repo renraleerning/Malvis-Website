@@ -6,7 +6,7 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>MALVIS — About</title>
+        <title>MALVIS | About</title>
       </Head>
       <HeroMalvis open={false} />
       <GalleryMalvis />

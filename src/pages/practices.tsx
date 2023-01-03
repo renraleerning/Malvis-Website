@@ -6,7 +6,7 @@ const Practices = () => {
   return (
     <>
       <Head>
-        <title>MALVIS — Practices Area</title>
+        <title>MALVIS | Practices Scope</title>
       </Head>
       <HeroMalvis open={false} />
       <PracticesMalvis />
