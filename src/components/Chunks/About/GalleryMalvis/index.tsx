@@ -1,4 +1,4 @@
-// import tw, { styled } from 'twin.macro'
+import tw, { styled } from 'twin.macro'
 import React, { Fragment } from 'react'
 //import React, {  useRef } from 'react's
 import { Container } from '@/components/Layouts'
@@ -9,6 +9,10 @@ import Image from 'next/image'
 
 // import dataGallery from '@jsons/gallery.json'
 // import GalleryCard from '@/components/Card/Gallery'
+
+const ContentHead = styled.h1`
+  ${tw`mb-5 text-3xl  text-center font-bold text-malvis lg:text-4xl`}
+`
 
 export const GalleryMalvis: React.FC = () => {
   useEffect(() => {
@@ -27,9 +31,9 @@ export const GalleryMalvis: React.FC = () => {
   return (
     <Container tag={'div'} tw="px-5 md:px-14">
       <Fragment>
-        <div tw="md:my-32">
+        <div tw="my-20">
           <div tw="md:my-auto grid sm:py-8 py-8 md:py-0 place-content-center items-center" data-aos="fade">
-            <p tw="text-center text-malvis font-bold md:text-4xl text-xl mb-2  md:mb-4  ">ABOUT US</p>
+            <ContentHead>ABOUT US</ContentHead>
             <p tw="text-[#2b2b2b] font-bold mb-5 text-center">Local Counsel, Globally Connected</p>
             <p tw="text-[#232323] md:mb-5 md:text-center text-justify text-sm mb-20" data-aos="fade">
               Malvis Attorneys at Law is founded because of the similarity of its founders’s background and college, with a
