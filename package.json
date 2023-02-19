@@ -41,7 +41,7 @@
     "react-feather": "^2.0.9",
     "react-scroll": "^1.8.4",
     "react-slick": "^0.29.0",
-    "sharp": "0.27.2",
+    "sharp": "^0.31.0",
     "swr": "^1.2.2"
   },
   "devDependencies": {
